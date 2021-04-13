@@ -1,0 +1,12 @@
+ body{
+    width:500px;
+    height:500px;
+}
+
+ a {
+    transition: color .3s;
+    font-size:30pt;
+  }
+  a:hover {
+    color: #0059ff;
+  }

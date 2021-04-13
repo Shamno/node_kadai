@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>button</title>
+    </head>
+
+<script>
+    function changeColor(button){
+  var obj = document.getElementById(button);
+  obj.style.backgroundColor = 'red';  //背景色を赤にする
+}
+</script>
+
+    <body>
+        <input id="button" type="button" value="ボタン" onclick="changeColor('button');">
+    </body>
+</html>
